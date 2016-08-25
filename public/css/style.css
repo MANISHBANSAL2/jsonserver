@@ -1,0 +1,112 @@
+
+form {
+  text-align: center;
+}
+
+
+.pic{
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+	background-size: cover;
+}
+
+#orders {
+	align-content: center;
+}
+
+.image{
+	width: 100%;
+	height: 100%;
+}
+
+.para{
+	width: 100%;
+	height: 100%;	
+}
+
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+.header1 {
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(100,200,50);
+}
+
+.header2 {
+	margin-top: 40px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#searchtext {
+	width: 650px;
+}
+
+.finder {
+    border: 1px solid grey;
+    margin-top: 90px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+#details_head {
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+table tr .edit {
+	display: none;
+}
+
+table tr.edit .edit {
+	display: initial;
+}
+
+table tr.edit .noedit {
+	display: none;
+}
+
+
+
+/*Media Queries*/
+
+@media (max-width: 480px) {
+	.pic{
+	
+	height: 200px;
+	background: url('../img/movie1-sm.jpg') top center no-repeat;
+}
+
+#searchtext {
+		width: 100%;
+}
+
+}
+
+@media (max-width: 768px) 
+{
+	/*#chartRow{
+	margin-top: 80px;}*/
+	
+	#searchtext {
+		width: 300px;
+}
+	/*#searchid{
+	margin-left: 0px;}*/
+	
+.pic {
+	height: 300px;
+	background: url('../img/movie1.jpg') top center no-repeat;
+  }
+}
+
+ 
