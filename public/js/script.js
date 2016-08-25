@@ -20,7 +20,7 @@ $(document).ready(function()  {
 
 		$.ajax({
 			type : 'GET',
-			url : "http://localhost:8080:friends",
+			url : "http://localhost:8080/friends",
 			success : function(data) {
 
 				var abc= JSON.stringify(data);
